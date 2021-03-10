@@ -1,0 +1,163 @@
+/* modal popup show prd by ajax */
+
+#prdModal .product-wrapper {
+    display: inline-block;
+    width: 100%;
+}
+
+#prdModal .product-title h3 {
+    padding-bottom: 0;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#prdModal .product-info__price {
+    font-size: 1.5em;
+    color: #1fc0a0;
+    text-align: left !important;
+}
+
+.inner h3,
+.inner p {
+    color: #fff !important;
+}
+
+.alert a {
+    text-decoration: none !important;
+}
+
+table.table.table-bordered p {
+    font-size: 15px;
+}
+
+
+/* dateime ở hóa đơn */
+
+.input-group .form-control::first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.input-group .form-control {
+    border-radius: 5px;
+}
+
+.input-group-addon:last-child {
+    border-top-left-radius: 0!important;
+    border-bottom-left-radius: 0!important;
+}
+
+.input-group-addon {
+    border-radius: 5px !important;
+}
+
+
+/*search*/
+
+.text-search {
+    border-radius: 10px !important;
+    height: 35px;
+    border-top-right-radius: 0!important;
+    border-bottom-right-radius: 0!important;
+}
+
+.btn-search {
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border: none;
+    border-bottom-left-radius: 0;
+    padding: 0 10px;
+}
+
+
+/*table danh sách */
+
+.bootstrap-table .table-responsive {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    /* background: aliceblue; */
+}
+
+table.table.table-bordered {
+    font-size: 15px;
+}
+
+.options {
+    margin: 20px -15px;
+}
+
+
+/*export*/
+
+.btn-export {
+    position: relative;
+}
+
+.dt-button-collection.dropdown-menu {
+    padding-top: 0;
+    padding-bottom: 0;
+    z-index: 20005;
+    box-shadow: 5px 10px 10px #ccc;
+}
+
+.dt-button-collection.dropdown-menu>li>a {
+    padding: 7px 15px;
+}
+
+.dt-button-collection.dropdown-menu.export-show {
+    display: block;
+}
+
+.staff-profile-image-small {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.dataTables_empty {
+    padding-top: 25px!important;
+    padding-bottom: 180px!important;
+    text-align: left!important;
+    color: #777;
+    font-size: 15px;
+    background: url(../images/table-no-data.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 161px;
+}
+
+table.table-bordered tbody tr:hover {
+    background: #f5f5f5;
+}
+
+.form-group .form-control {
+    border-radius: 5px;
+}
+
+.input-group .form-control:not(:first-child):not(:last-child),
+.input-group-addon:not(:first-child):not(:last-child),
+.input-group-btn:not(:first-child):not(:last-child) {
+    border-radius: 0 !important;
+}
+
+.input-group .form-control:last-child,
+.input-group-addon:last-child,
+.input-group-btn:first-child>.btn-group:not(:first-child)>.btn,
+.input-group-btn:first-child>.btn:not(:first-child),
+.input-group-btn:last-child>.btn,
+.input-group-btn:last-child>.btn-group>.btn,
+.input-group-btn:last-child>.dropdown-toggle {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.input-group-addon:last-child {
+    border-left: 0;
+}
+
+.dataTables_info {
+    margin: 20px 0;
+    color: #008ece;
+}
